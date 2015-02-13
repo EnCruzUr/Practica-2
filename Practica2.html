@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Ejemplo de HTML5">
+<meta name="keywords" content="HTML5,CSS3,JavaScript">
+<title>Practica 2</title>
+</head>
+<body>
+<div>
+<form action="datos.html" method="get">
+<fieldset> <legend>Personal</legend> <br>
+<br>
+<label for="txtNombre">Nombre</label><br>
+<input size="10" maxlength="10" id="txtNombre" name="Nombre" value=""type="text"> <br>
+<label for="txtApePat">Apellido Paterno</label><br>
+<input size="10" maxlength="10" id="txtApePat" name="ApePat" value=""type="text"> <br>
+<label for="txtApeMat">Apellido Materno</label><br>
+<input size="10" maxlength="10" id="txtApeMat" name="ApeMat" value=""type="text"> <br>
+</fieldset>
+<fieldset> <legend>Contacto</legend> <br>
+<br>
+<label for="txtDom">Domicilio</label><br>
+<input size="10" maxlength="10" id="txtDom" name="Dom" value=""type="text"> <br>
+<label for="txtCol">Colonia</label><br>
+<input size="10" maxlength="10" id="txtCol" name="Col" value=""type="text"> <br>
+<label for="txtCP">Codigo Postal</label> <input size="10"maxlength="10" id="txtCP" name="CP" value="" type="text"> <br>
+<label for="txtEs">Estado</label>
+<select id="txtEs" name="Estado">
+<option value="0" selected="selected"></option>
+<option value="1">Aguascalientes</option>
+<option value="2">Baja California </option>
+<option value="3">Baja California Sur </option>
+<option value="4">Campeche</option>
+<option value="5">Chiapas</option>
+<option value="6">Chihuahua</option>
+<option value="7">Coahuila</option>
+<option value="8">Colima</option>
+<option value="9">DF</option>
+<option value="10">Durango</option>
+<option value="11">Estado de México </option>
+<option value="12">Guanajuato</option>
+<option value="13">Guerrero</option>
+<option value="14">Hidalgo</option>
+<option value="15">Jalisco</option>
+<option value="16">Michoacán</option>
+<option value="17">Morelos</option>
+<option value="18">Nayarit</option>
+<option value="19">Nuevo Leon</option>
+<option value="20">Oaxaca</option>
+<option value="21">Puebla</option>
+<option value="22">Querétaro</option>
+<option value="23">Quintana Roo </option>
+<option value="24">San Luis Potosí </option>
+<option value="25">Sinaloa</option>
+<option value="26">Sonora</option>
+<option value="27">Tabasco</option>
+<option value="28">Tamaulipas</option>
+<option value="29">Tlaxcala</option>
+<option value="30">Veracruz</option>
+<option value="31">Yucatan</option>
+<option value="32">Zacatecas</option>
+</select>
+<br>
+</fieldset>
+<fieldset> <legend>Otros</legend> <br>
+<label for="txtSex">Sexo</label> <br>
+<input id="Masculino" name="Sexo"value="1" checked="checked" type="radio"><label for="Masculino">Masculino</label><br>
+<input id="Femenino" name="Sexo" value="2" type="radio"> <label for="Femenino">Femenino</label><br>
+<br>
+<label for="txtIdioma">Idiomas</label><br>
+<br>
+
+<input id="Esp" name="Espanol" value="1" type="checkbox"><label for="Esp">Espanol</label><br>
+<input id="Ing" name="Ingles" value="2" type="checkbox"><label for="Ing">Ingles</label><br>
+<input id="Ale" name="Aleman" value="3" type="checkbox"><label for="Ale">Aleman</label><br>
+<input id="Fra" name="frances" value="4" type="checkbox"> <label for="Fra">Frances</label><br>
+</fieldset>
+<input name="enviar" value="Guardar" type="submit"> </form>
+</div>
+</body>
+</html>
